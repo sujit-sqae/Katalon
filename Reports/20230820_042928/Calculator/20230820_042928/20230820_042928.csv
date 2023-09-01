@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Calculator,,,,2023-08-20 04:29:33,2023-08-20 04:32:26,2m - 53.440s,PASSED
+,,,,,,,
+Test Cases/Addition,,,,2023-08-20 04:29:34,2023-08-20 04:30:14,40.252s,PASSED
+"startExistingApplication(""com.google.android.calculator"", STOP_ON_FAILURE)",,,,2023-08-20 04:29:34,2023-08-20 04:30:00,25.217s,PASSED
+"tap(findTestObject(""Button - AC""), 0)",,,,2023-08-20 04:30:00,2023-08-20 04:30:03,3.560s,PASSED
+"tap(findTestObject(""Button - 2""), 0)",,,,2023-08-20 04:30:03,2023-08-20 04:30:05,2.002s,PASSED
+"tap(findTestObject(""Button - Addition""), 0)",,,,2023-08-20 04:30:05,2023-08-20 04:30:07,2.015s,PASSED
+"tap(findTestObject(""Button - 3""), 0)",,,,2023-08-20 04:30:07,2023-08-20 04:30:08,1.064s,PASSED
+"verifyElementText(findTestObject(""TextView - Result""), ""5"")",,,,2023-08-20 04:30:08,2023-08-20 04:30:09,0.993s,PASSED
+"tap(findTestObject(""Button - Equal""), 0)",,,,2023-08-20 04:30:09,2023-08-20 04:30:11,2.093s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-20 04:30:11,2023-08-20 04:30:12,1.053s,PASSED
+"verifyElementText(findTestObject(""TextView - Final Result""), ""5"")",,,,2023-08-20 04:30:12,2023-08-20 04:30:13,0.864s,PASSED
+closeApplication(),,,,2023-08-20 04:30:13,2023-08-20 04:30:14,0.531s,PASSED
+,,,,,,,
+Test Cases/Multiplication,,,,2023-08-20 04:30:14,2023-08-20 04:30:43,29.379s,PASSED
+"startExistingApplication(""com.google.android.calculator"", STOP_ON_FAILURE)",,,,2023-08-20 04:30:14,2023-08-20 04:30:32,17.352s,PASSED
+"tap(findTestObject(""Button - AC""), 0)",,,,2023-08-20 04:30:32,2023-08-20 04:30:34,2.595s,PASSED
+"tap(findTestObject(""Button - 5""), 0)",,,,2023-08-20 04:30:34,2023-08-20 04:30:35,1.002s,PASSED
+"tap(findTestObject(""Button - Multiplication""), 0)",,,,2023-08-20 04:30:35,2023-08-20 04:30:36,1.170s,PASSED
+"tap(findTestObject(""Button - 7""), 0)",,,,2023-08-20 04:30:36,2023-08-20 04:30:38,1.844s,PASSED
+"verifyElementText(findTestObject(""TextView - Result""), ""35"")",,,,2023-08-20 04:30:38,2023-08-20 04:30:39,0.441s,PASSED
+"tap(findTestObject(""Button - Equal""), 0)",,,,2023-08-20 04:30:39,2023-08-20 04:30:41,1.915s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-20 04:30:41,2023-08-20 04:30:42,1.007s,PASSED
+"verifyElementText(findTestObject(""TextView - Final Result""), ""35"")",,,,2023-08-20 04:30:42,2023-08-20 04:30:43,0.987s,PASSED
+closeApplication(),,,,2023-08-20 04:30:43,2023-08-20 04:30:43,0.558s,PASSED
+,,,,,,,
+Test Cases/Division,,,,2023-08-20 04:30:43,2023-08-20 04:31:20,36.786s,PASSED
+"startExistingApplication(""com.google.android.calculator"", STOP_ON_FAILURE)",,,,2023-08-20 04:30:44,2023-08-20 04:31:01,16.826s,PASSED
+"tap(findTestObject(""Button - AC""), 0)",,,,2023-08-20 04:31:01,2023-08-20 04:31:02,1.879s,PASSED
+"tap(findTestObject(""Button - 8""), 0)",,,,2023-08-20 04:31:02,2023-08-20 04:31:03,1.040s,PASSED
+"tap(findTestObject(""Button - Division""), 0)",,,,2023-08-20 04:31:03,2023-08-20 04:31:05,1.100s,PASSED
+"tap(findTestObject(""Button - 4""), 0)",,,,2023-08-20 04:31:05,2023-08-20 04:31:06,1.857s,PASSED
+"verifyElementText(findTestObject(""TextView - Result""), ""2"")",,,,2023-08-20 04:31:06,2023-08-20 04:31:07,0.421s,PASSED
+"tap(findTestObject(""Button - Equal""), 0)",,,,2023-08-20 04:31:07,2023-08-20 04:31:09,1.927s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-20 04:31:09,2023-08-20 04:31:10,1.005s,PASSED
+"verifyElementText(findTestObject(""TextView - Final Result""), ""2"")",,,,2023-08-20 04:31:10,2023-08-20 04:31:11,0.887s,PASSED
+"tap(findTestObject(""Button - AC""), 0)",,,,2023-08-20 04:31:11,2023-08-20 04:31:12,1.776s,PASSED
+"tap(findTestObject(""Button - 1""), 0)",,,,2023-08-20 04:31:12,2023-08-20 04:31:13,1.002s,PASSED
+"tap(findTestObject(""Button - Division""), 0)",,,,2023-08-20 04:31:13,2023-08-20 04:31:16,2.151s,PASSED
+"tap(findTestObject(""Button - 0""), 0)",,,,2023-08-20 04:31:16,2023-08-20 04:31:17,1.857s,PASSED
+"tap(findTestObject(""Button - Equal""), 0)",,,,2023-08-20 04:31:17,2023-08-20 04:31:19,1.239s,PASSED
+"verifyElementText(findTestObject(""TextView - Result""), ""Can't divide by 0"")",,,,2023-08-20 04:31:19,2023-08-20 04:31:19,0.818s,PASSED
+closeApplication(),,,,2023-08-20 04:31:19,2023-08-20 04:31:20,0.562s,PASSED
+,,,,,,,
+Test Cases/Subtraction,,,,2023-08-20 04:31:20,2023-08-20 04:31:48,27.497s,PASSED
+"startExistingApplication(""com.google.android.calculator"", STOP_ON_FAILURE)",,,,2023-08-20 04:31:20,2023-08-20 04:31:37,16.796s,PASSED
+"tap(findTestObject(""Button - AC""), 0)",,,,2023-08-20 04:31:37,2023-08-20 04:31:39,2.237s,PASSED
+"tap(findTestObject(""Button - 6""), 0)",,,,2023-08-20 04:31:39,2023-08-20 04:31:40,1.006s,PASSED
+"tap(findTestObject(""Button - Subtraction""), 0)",,,,2023-08-20 04:31:40,2023-08-20 04:31:41,1.002s,PASSED
+"tap(findTestObject(""Button - 1""), 0)",,,,2023-08-20 04:31:41,2023-08-20 04:31:43,1.056s,PASSED
+"verifyElementText(findTestObject(""TextView - Result""), ""5"")",,,,2023-08-20 04:31:43,2023-08-20 04:31:44,1.007s,PASSED
+"tap(findTestObject(""Button - Equal""), 0)",,,,2023-08-20 04:31:44,2023-08-20 04:31:46,1.955s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-20 04:31:46,2023-08-20 04:31:47,1.005s,PASSED
+"verifyElementText(findTestObject(""TextView - Final Result""), ""5"")",,,,2023-08-20 04:31:47,2023-08-20 04:31:47,0.465s,PASSED
+closeApplication(),,,,2023-08-20 04:31:47,2023-08-20 04:31:48,0.572s,PASSED
+,,,,,,,
+Test Cases/All Mathematical Operations,,,,2023-08-20 04:31:48,2023-08-20 04:32:26,38.932s,PASSED
+"startExistingApplication(""com.google.android.calculator"", STOP_ON_FAILURE)",,,,2023-08-20 04:31:48,2023-08-20 04:32:06,18.095s,PASSED
+"tap(findTestObject(""Button - AC""), 0)",,,,2023-08-20 04:32:06,2023-08-20 04:32:09,2.441s,PASSED
+"tap(findTestObject(""Button - 2""), 0)",,,,2023-08-20 04:32:09,2023-08-20 04:32:10,1.009s,PASSED
+"tap(findTestObject(""Button - Point""), 0)",,,,2023-08-20 04:32:10,2023-08-20 04:32:11,1.020s,PASSED
+"tap(findTestObject(""Button - 5""), 0)",,,,2023-08-20 04:32:11,2023-08-20 04:32:12,0.995s,PASSED
+"tap(findTestObject(""Button - Multiplication""), 0)",,,,2023-08-20 04:32:12,2023-08-20 04:32:13,1.002s,PASSED
+"tap(findTestObject(""Button - 1""), 0)",,,,2023-08-20 04:32:13,2023-08-20 04:32:14,1.029s,PASSED
+"tap(findTestObject(""Button - 2""), 0)",,,,2023-08-20 04:32:14,2023-08-20 04:32:15,0.971s,PASSED
+"tap(findTestObject(""Button - Subtraction""), 0)",,,,2023-08-20 04:32:15,2023-08-20 04:32:16,1.099s,PASSED
+"tap(findTestObject(""Button - 2""), 0)",,,,2023-08-20 04:32:16,2023-08-20 04:32:17,0.979s,PASSED
+"tap(findTestObject(""Button - 9""), 0)",,,,2023-08-20 04:32:17,2023-08-20 04:32:18,0.988s,PASSED
+"tap(findTestObject(""Button - Addition""), 0)",,,,2023-08-20 04:32:18,2023-08-20 04:32:19,1.004s,PASSED
+"tap(findTestObject(""Button - 2""), 0)",,,,2023-08-20 04:32:19,2023-08-20 04:32:20,0.999s,PASSED
+"tap(findTestObject(""Button - Point""), 0)",,,,2023-08-20 04:32:20,2023-08-20 04:32:21,1.000s,PASSED
+"tap(findTestObject(""Button - 3""), 0)",,,,2023-08-20 04:32:21,2023-08-20 04:32:22,1.002s,PASSED
+"verifyElementText(findTestObject(""TextView - Result""), ""3.3"")",,,,2023-08-20 04:32:22,2023-08-20 04:32:22,0.393s,PASSED
+"tap(findTestObject(""Button - Equal""), 0)",,,,2023-08-20 04:32:22,2023-08-20 04:32:24,1.772s,PASSED
+"delay(1, STOP_ON_FAILURE)",,,,2023-08-20 04:32:24,2023-08-20 04:32:25,1.007s,PASSED
+"verifyElementText(findTestObject(""TextView - Final Result""), ""3.3"")",,,,2023-08-20 04:32:25,2023-08-20 04:32:26,0.855s,PASSED
+closeApplication(),,,,2023-08-20 04:32:26,2023-08-20 04:32:26,0.807s,PASSED

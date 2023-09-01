@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Calculator" time="151.129" tests="5" failures="2" errors="0">
+   <testsuite name="Calculator" tests="5" failures="2" errors="0" time="151.129" skipped="0" timestamp="2023-08-20 03:50:43" hostname="sarker - localhost" id="Test Suites/Calculator">
+      <properties>
+         <property name="deviceName" value="OnePlus CPH2469 (Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sarker/Documents/Own_Projects/Mobile Application Automation/Source Code/Reports/20230820_035040/Calculator/20230820_035040"/>
+         <property name="logFiles" value="/Users/sarker/Documents/Own_Projects/Mobile Application Automation/Source Code/Reports/20230820_035040/Calculator/20230820_035040/execution0.log, /Users/sarker/Documents/Own_Projects/Mobile Application Automation/Source Code/Reports/20230820_035040/Calculator/20230820_035040/appium.log"/>
+         <property name="attachments" value="/Users/sarker/Documents/Own_Projects/Mobile Application Automation/Source Code/Reports/20230820_035040/Calculator/20230820_035040/1692481958153.png, /Users/sarker/Documents/Own_Projects/Mobile Application Automation/Source Code/Reports/20230820_035040/Calculator/20230820_035040/1692481993957.png"/>
+         <property name="hostName" value="sarker - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.0&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.0"/>
+         <property name="deviceModel" value="CPH2469"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="OnePlus"/>
+         <property name="deviceId" value="KRYTEU85DMMNKBVK"/>
+         <property name="deviceName" value="OnePlus CPH2469 (Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Addition" time="32.447" classname="Test Cases/Addition" status="PASSED">
+         <system-out><![CDATA[2023-08-20 03:50:44 - [TEST_CASE][PASSED] - Test Cases/Addition: Test Cases/Addition
+
+2023-08-20 03:50:44 - [TEST_STEP][PASSED] - startExistingApplication("com.google.android.calculator", STOP_ON_FAILURE): Starting app with application ID: 'com.google.android.calculator'
+
+2023-08-20 03:50:45 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-08-20 03:50:46 - [MESSAGE][INFO] - Appium server started on port 62,298
+
+2023-08-20 03:51:05 - [MESSAGE][PASSED] - Starting app with application ID: 'com.google.android.calculator'
+
+2023-08-20 03:51:05 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 2"), 0): Tapped on element 'Object Repository/Button - 2'
+
+2023-08-20 03:51:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:51:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 2'
+
+2023-08-20 03:51:08 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Addition"), 0): Tapped on element 'Object Repository/Button - Addition'
+
+2023-08-20 03:51:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:51:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Addition'
+
+2023-08-20 03:51:09 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 3"), 0): Tapped on element 'Object Repository/Button - 3'
+
+2023-08-20 03:51:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:51:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 3'
+
+2023-08-20 03:51:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TextView - Result"), "5"): Actual text and expected text of test object 'Object Repository/TextView - Result' are matched.
+
+2023-08-20 03:51:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TextView - Result' are matched.
+
+2023-08-20 03:51:12 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Equal"), 0): Tapped on element 'Object Repository/Button - Equal'
+
+2023-08-20 03:51:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:51:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Equal'
+
+2023-08-20 03:51:14 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-20 03:51:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-20 03:51:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TextView - Final Result"), "5"): Actual text and expected text of test object 'Object Repository/TextView - Final Result' are matched.
+
+2023-08-20 03:51:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TextView - Final Result' are matched.
+
+2023-08-20 03:51:15 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-08-20 03:51:16 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Multiplication" time="27.612" classname="Test Cases/Multiplication" status="PASSED">
+         <system-out><![CDATA[2023-08-20 03:51:16 - [TEST_CASE][PASSED] - Test Cases/Multiplication: Test Cases/Multiplication
+
+2023-08-20 03:51:16 - [TEST_STEP][PASSED] - startExistingApplication("com.google.android.calculator", STOP_ON_FAILURE): Starting app with application ID: 'com.google.android.calculator'
+
+2023-08-20 03:51:17 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-08-20 03:51:19 - [MESSAGE][INFO] - Appium server started on port 62,477
+
+2023-08-20 03:51:35 - [MESSAGE][PASSED] - Starting app with application ID: 'com.google.android.calculator'
+
+2023-08-20 03:51:35 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 5"), 0): Tapped on element 'Object Repository/Button - 5'
+
+2023-08-20 03:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:51:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 5'
+
+2023-08-20 03:51:37 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Multiplication"), 0): Tapped on element 'Object Repository/Button - Multiplication'
+
+2023-08-20 03:51:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:51:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Multiplication'
+
+2023-08-20 03:51:38 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 7"), 0): Tapped on element 'Object Repository/Button - 7'
+
+2023-08-20 03:51:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:51:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 7'
+
+2023-08-20 03:51:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TextView - Result"), "35"): Actual text and expected text of test object 'Object Repository/TextView - Result' are matched.
+
+2023-08-20 03:51:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TextView - Result' are matched.
+
+2023-08-20 03:51:40 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Equal"), 0): Tapped on element 'Object Repository/Button - Equal'
+
+2023-08-20 03:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:51:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Equal'
+
+2023-08-20 03:51:41 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-20 03:51:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-20 03:51:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TextView - Final Result"), "35"): Actual text and expected text of test object 'Object Repository/TextView - Final Result' are matched.
+
+2023-08-20 03:51:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TextView - Final Result' are matched.
+
+2023-08-20 03:51:43 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-08-20 03:51:44 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Division" time="33.12" classname="Test Cases/Division" status="PASSED">
+         <system-out><![CDATA[2023-08-20 03:51:44 - [TEST_CASE][PASSED] - Test Cases/Division: Test Cases/Division
+
+2023-08-20 03:51:44 - [TEST_STEP][PASSED] - startExistingApplication("com.google.android.calculator", STOP_ON_FAILURE): Starting app with application ID: 'com.google.android.calculator'
+
+2023-08-20 03:51:44 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-08-20 03:51:45 - [MESSAGE][INFO] - Appium server started on port 62,645
+
+2023-08-20 03:52:00 - [MESSAGE][PASSED] - Starting app with application ID: 'com.google.android.calculator'
+
+2023-08-20 03:52:00 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 8"), 0): Tapped on element 'Object Repository/Button - 8'
+
+2023-08-20 03:52:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 8'
+
+2023-08-20 03:52:03 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Division"), 0): Tapped on element 'Object Repository/Button - Division'
+
+2023-08-20 03:52:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Division'
+
+2023-08-20 03:52:04 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 4"), 0): Tapped on element 'Object Repository/Button - 4'
+
+2023-08-20 03:52:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 4'
+
+2023-08-20 03:52:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TextView - Result"), "2"): Actual text and expected text of test object 'Object Repository/TextView - Result' are matched.
+
+2023-08-20 03:52:06 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TextView - Result' are matched.
+
+2023-08-20 03:52:06 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Equal"), 0): Tapped on element 'Object Repository/Button - Equal'
+
+2023-08-20 03:52:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Equal'
+
+2023-08-20 03:52:08 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+2023-08-20 03:52:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2023-08-20 03:52:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TextView - Final Result"), "2"): Actual text and expected text of test object 'Object Repository/TextView - Final Result' are matched.
+
+2023-08-20 03:52:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TextView - Final Result' are matched.
+
+2023-08-20 03:52:09 - [TEST_STEP][PASSED] - tap(findTestObject("Button - AC"), 0): Tapped on element 'Object Repository/Button - AC'
+
+2023-08-20 03:52:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - AC'
+
+2023-08-20 03:52:11 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 1"), 0): Tapped on element 'Object Repository/Button - 1'
+
+2023-08-20 03:52:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 1'
+
+2023-08-20 03:52:12 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Division"), 0): Tapped on element 'Object Repository/Button - Division'
+
+2023-08-20 03:52:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Division'
+
+2023-08-20 03:52:13 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 0"), 0): Tapped on element 'Object Repository/Button - 0'
+
+2023-08-20 03:52:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 0'
+
+2023-08-20 03:52:14 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Equal"), 0): Tapped on element 'Object Repository/Button - Equal'
+
+2023-08-20 03:52:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Equal'
+
+2023-08-20 03:52:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("TextView - Result"), "Can't divide by 0"): Actual text and expected text of test object 'Object Repository/TextView - Result' are matched.
+
+2023-08-20 03:52:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/TextView - Result' are matched.
+
+2023-08-20 03:52:16 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-08-20 03:52:17 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subtraction" time="21.823" classname="Test Cases/Subtraction" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Subtraction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '−0.833333333333' and expected text '5' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at Subtraction.run(Subtraction:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)
+"/>
+         <system-out><![CDATA[2023-08-20 03:52:17 - [TEST_CASE][FAILED] - Test Cases/Subtraction: Test Cases/Subtraction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '−0.833333333333' and expected text '5' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at Subtraction.run(Subtraction:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)
+
+
+2023-08-20 03:52:17 - [TEST_STEP][PASSED] - startExistingApplication("com.google.android.calculator", STOP_ON_FAILURE): Starting app with application ID: 'com.google.android.calculator'
+
+2023-08-20 03:52:17 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-08-20 03:52:18 - [MESSAGE][INFO] - Appium server started on port 62,835
+
+2023-08-20 03:52:33 - [MESSAGE][PASSED] - Starting app with application ID: 'com.google.android.calculator'
+
+2023-08-20 03:52:33 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 6"), 0): Tapped on element 'Object Repository/Button - 6'
+
+2023-08-20 03:52:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 6'
+
+2023-08-20 03:52:34 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Subtraction"), 0): Tapped on element 'Object Repository/Button - Subtraction'
+
+2023-08-20 03:52:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Subtraction'
+
+2023-08-20 03:52:36 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 1"), 0): Tapped on element 'Object Repository/Button - 1'
+
+2023-08-20 03:52:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 1'
+
+2023-08-20 03:52:37 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("TextView - Result"), "5"): Verify element text of test object 'Object Repository/TextView - Result' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '−0.833333333333' and expected text '5' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at Subtraction.run(Subtraction:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)
+)
+
+2023-08-20 03:52:38 - [MESSAGE][FAILED] - Actual text '−0.833333333333' and expected text '5' of test object 'Object Repository/TextView - Result' are NOT matched.
+
+2023-08-20 03:52:39 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TextView - Result' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '−0.833333333333' and expected text '5' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at Subtraction.run(Subtraction:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)
+)
+[[ATTACHMENT|/Users/sarker/Documents/Own_Projects/Mobile Application Automation/Source Code/Reports/20230820_035040/Calculator/20230820_035040/1692481958153.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-20 03:52:17 - [TEST_CASE][FAILED] - Test Cases/Subtraction: Test Cases/Subtraction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '−0.833333333333' and expected text '5' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at Subtraction.run(Subtraction:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/All Mathematical Operations" time="35.679" classname="Test Cases/All Mathematical Operations" status="FAILED">
+         <failure type="FAILED" message="Test Cases/All Mathematical Operations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '−176.5333333333' and expected text '3.3' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at All Mathematical Operations.run(All Mathematical Operations:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)
+"/>
+         <system-out><![CDATA[2023-08-20 03:52:39 - [TEST_CASE][FAILED] - Test Cases/All Mathematical Operations: Test Cases/All Mathematical Operations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '−176.5333333333' and expected text '3.3' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at All Mathematical Operations.run(All Mathematical Operations:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)
+
+
+2023-08-20 03:52:39 - [TEST_STEP][PASSED] - startExistingApplication("com.google.android.calculator", STOP_ON_FAILURE): Starting app with application ID: 'com.google.android.calculator'
+
+2023-08-20 03:52:55 - [MESSAGE][PASSED] - Starting app with application ID: 'com.google.android.calculator'
+
+2023-08-20 03:52:55 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 2"), 0): Tapped on element 'Object Repository/Button - 2'
+
+2023-08-20 03:52:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 2'
+
+2023-08-20 03:52:56 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Point"), 0): Tapped on element 'Object Repository/Button - Point'
+
+2023-08-20 03:52:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Point'
+
+2023-08-20 03:52:58 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 5"), 0): Tapped on element 'Object Repository/Button - 5'
+
+2023-08-20 03:52:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:52:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 5'
+
+2023-08-20 03:52:59 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Multiplication"), 0): Tapped on element 'Object Repository/Button - Multiplication'
+
+2023-08-20 03:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:53:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Multiplication'
+
+2023-08-20 03:53:02 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 1"), 0): Tapped on element 'Object Repository/Button - 1'
+
+2023-08-20 03:53:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:53:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 1'
+
+2023-08-20 03:53:03 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 2"), 0): Tapped on element 'Object Repository/Button - 2'
+
+2023-08-20 03:53:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:53:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 2'
+
+2023-08-20 03:53:04 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Subtraction"), 0): Tapped on element 'Object Repository/Button - Subtraction'
+
+2023-08-20 03:53:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:53:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Subtraction'
+
+2023-08-20 03:53:06 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 2"), 0): Tapped on element 'Object Repository/Button - 2'
+
+2023-08-20 03:53:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:53:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 2'
+
+2023-08-20 03:53:07 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 9"), 0): Tapped on element 'Object Repository/Button - 9'
+
+2023-08-20 03:53:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:53:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 9'
+
+2023-08-20 03:53:08 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Addition"), 0): Tapped on element 'Object Repository/Button - Addition'
+
+2023-08-20 03:53:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:53:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Addition'
+
+2023-08-20 03:53:09 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 2"), 0): Tapped on element 'Object Repository/Button - 2'
+
+2023-08-20 03:53:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:53:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 2'
+
+2023-08-20 03:53:10 - [TEST_STEP][PASSED] - tap(findTestObject("Button - Point"), 0): Tapped on element 'Object Repository/Button - Point'
+
+2023-08-20 03:53:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:53:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - Point'
+
+2023-08-20 03:53:11 - [TEST_STEP][PASSED] - tap(findTestObject("Button - 3"), 0): Tapped on element 'Object Repository/Button - 3'
+
+2023-08-20 03:53:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-20 03:53:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Button - 3'
+
+2023-08-20 03:53:13 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("TextView - Result"), "3.3"): Verify element text of test object 'Object Repository/TextView - Result' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '−176.5333333333' and expected text '3.3' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at All Mathematical Operations.run(All Mathematical Operations:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)
+)
+
+2023-08-20 03:53:13 - [MESSAGE][FAILED] - Actual text '−176.5333333333' and expected text '3.3' of test object 'Object Repository/TextView - Result' are NOT matched.
+
+2023-08-20 03:53:14 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/TextView - Result' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '−176.5333333333' and expected text '3.3' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at All Mathematical Operations.run(All Mathematical Operations:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)
+)
+[[ATTACHMENT|/Users/sarker/Documents/Own_Projects/Mobile Application Automation/Source Code/Reports/20230820_035040/Calculator/20230820_035040/1692481993957.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-20 03:52:39 - [TEST_CASE][FAILED] - Test Cases/All Mathematical Operations: Test Cases/All Mathematical Operations FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '−176.5333333333' and expected text '3.3' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at All Mathematical Operations.run(All Mathematical Operations:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-20 03:50:43 - [TEST_SUITE][FAILED] - Calculator: Test Cases/Subtraction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '−0.833333333333' and expected text '5' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at Subtraction.run(Subtraction:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-08-20 03:50:43 - [TEST_SUITE][FAILED] - Calculator: Test Cases/Subtraction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '−0.833333333333' and expected text '5' of test object 'Object Repository/TextView - Result' are NOT matched.
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:56)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:62)
+	at com.kms.katalon.core.mobile.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementText(MobileBuiltInKeywords.groovy:2901)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$verifyElementText$1.call(Unknown Source)
+	at Subtraction.run(Subtraction:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1692481840253.run(TempTestSuite1692481840253.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Calculator,,,,2023-08-20 02:34:55,2023-08-20 02:38:56,4m - 1.474s,FAILED
+,,,,,,,
+Test Cases/Addition,,,,2023-08-20 02:34:55,2023-08-20 02:35:51,55.908s,FAILED
+"startExistingApplication(""com.google.android.calculator"", STOP_ON_FAILURE)",,,,2023-08-20 02:34:55,2023-08-20 02:35:19,23.792s,PASSED
+"tap(findTestObject(""Calculator Objects/Button - 2""), 0)",,,,2023-08-20 02:35:19,2023-08-20 02:35:51,31.590s,FAILED
+,,,,,,,
+Test Cases/Multiplication,,,,2023-08-20 02:35:51,2023-08-20 02:36:38,46.984s,FAILED
+"startExistingApplication(""com.google.android.calculator"", STOP_ON_FAILURE)",,,,2023-08-20 02:35:51,2023-08-20 02:36:06,14.650s,PASSED
+"tap(findTestObject(""Calculator Objects/Button - 5""), 0)",,,,2023-08-20 02:36:06,2023-08-20 02:36:38,31.904s,FAILED
+,,,,,,,
+Test Cases/Division,,,,2023-08-20 02:36:38,2023-08-20 02:37:25,46.599s,FAILED
+"startExistingApplication(""com.google.android.calculator"", STOP_ON_FAILURE)",,,,2023-08-20 02:36:38,2023-08-20 02:36:53,14.447s,PASSED
+"tap(findTestObject(""Calculator Objects/Button - 8""), 0)",,,,2023-08-20 02:36:53,2023-08-20 02:37:24,31.700s,FAILED
+,,,,,,,
+Test Cases/Subtraction,,,,2023-08-20 02:37:25,2023-08-20 02:38:11,46.623s,FAILED
+"startExistingApplication(""com.google.android.calculator"", STOP_ON_FAILURE)",,,,2023-08-20 02:37:25,2023-08-20 02:37:39,14.384s,PASSED
+"tap(findTestObject(""Calculator Objects/Button - 6""), 0)",,,,2023-08-20 02:37:39,2023-08-20 02:38:11,31.792s,FAILED
+,,,,,,,
+Test Cases/All Mathematical Operations,,,,2023-08-20 02:38:11,2023-08-20 02:38:56,44.822s,FAILED
+"startExistingApplication(""com.google.android.calculator"", STOP_ON_FAILURE)",,,,2023-08-20 02:38:12,2023-08-20 02:38:25,12.992s,PASSED
+"tap(findTestObject(""Calculator Objects/Button - 2""), 0)",,,,2023-08-20 02:38:25,2023-08-20 02:38:56,31.439s,FAILED
